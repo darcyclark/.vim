@@ -1,5 +1,4 @@
 call pathogen#infect() 
-
 let mapleader = ","
 
 " tasklist
