@@ -82,3 +82,6 @@
 [submodule "bundle/vim-padrino"]
 	path = bundle/vim-padrino
 	url = https://github.com/spllr/vim-padrino.git
+[submodule "bundle/VimExplorer"]
+	path = bundle/VimExplorer
+	url = https://github.com/mbbill/VimExplorer.git

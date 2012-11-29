@@ -34,7 +34,7 @@ inoremap ;; <Esc>
 inoremap \\ <C-O>:w<CR>
 noremap \\ :w<CR>
 
-set clipboard=unnamed
+"set clipboard=unnamed
 set selection=inclusive
 set keymodel=startsel
 set mousemodel=popup
