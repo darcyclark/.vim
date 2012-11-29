@@ -178,4 +178,11 @@ map <leader>7 :tabn 7<CR>
 map <leader>8 :tabn 8<CR>
 map <leader>9 :tabn 9<CR>
 
+" automcomplete
 let g:neocomplcache_enable_at_startup = 1
+
+" Padrino
+map <leader>rc :Rcontroller<CR>
+map <leader>rr {)2w
+map <leader>rv {)2w:Rview <cword><CR>
+map <leader>rm :Rmodel<CR>
