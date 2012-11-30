@@ -121,11 +121,9 @@ let NERDTreeQuitOnOpen=1
  
 " TagList Plugin Configuration
 " let Tlist_Ctags_Cmd='/usr/bin/ctags' " point taglist to ctags
-map <F3> :TlistToggle<CR>
-let Tlist_GainFocus_On_ToggleOpen = 1 " Focus on the taglist when its toggled
-let Tlist_Close_On_Select = 1 " Close when something's selected
-let Tlist_Use_Right_Window = 1 " Project uses the left window
-let Tlist_File_Fold_Auto_Close = 1 " Close folds for inactive files
+map <F3> :TagbarToggle<CR>
+let g:tagbar_autoclose = 1
+let g:tagbar_autofocus = 1
 
 " various keymaps
 map <silent> <F2> :TSelectBuffer<CR> 
