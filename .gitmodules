@@ -114,7 +114,3 @@
 	path = bundle/VimExplorer
 	url = https://github.com/mbbill/VimExplorer.git
   ignore = dirty
-[submodule "tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
-  ignore = dirty
