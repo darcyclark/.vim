@@ -1,9 +1,6 @@
 call pathogen#infect() 
 let mapleader = ","
 
-"Neocompletecache
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>" 
-
 " tasklist
 map <leader>y <Plug>TaskList
 
@@ -180,8 +177,9 @@ map <leader>7 :tabn 7<CR>
 map <leader>8 :tabn 8<CR>
 map <leader>9 :tabn 9<CR>
 
-" automcomplete
+"Neocompletecache - automcomplete
 let g:neocomplcache_enable_at_startup = 1
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>" 
 
 " Padrino
 map <leader>rc :Rcontroller<CR>
