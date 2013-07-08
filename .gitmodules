@@ -78,10 +78,6 @@
 	path = bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
   ignore = dirty
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript
-  ignore = dirty
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less
@@ -114,3 +110,6 @@
 	path = bundle/VimExplorer
 	url = https://github.com/mbbill/VimExplorer.git
   ignore = dirty
+[submodule "bundle/javascript-libraries-syntax"]
+	path = bundle/javascript-libraries-syntax
+	url = https://github.com/othree/javascript-libraries-syntax.vim
