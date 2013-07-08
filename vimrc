@@ -112,7 +112,7 @@ map <F10><F10> :ccl<CR>
 map <F10> :copen<CR>
 
 " ctrlp.vim
-silent! nmap <unique> <silent> <Leader>pp :CtrlP<CR>
+silent! nmap <unique> <silent> <Leader>pp :CtrlP CWD<CR>
 
 " NERD_tree config
 map <F1> :NERDTreeToggle<CR>
