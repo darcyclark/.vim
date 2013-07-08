@@ -4,6 +4,10 @@ let mapleader = ","
 " tasklist
 map <leader>y <Plug>TaskList
 
+" enable autocomplete - Neocompletecache
+let g:neocomplcache_enable_at_startup = 1
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>" 
+
 " sessions
 set sessionoptions=blank,buffers,curdir
 map <F9><F9> :mksession! ~/.vimsession <cr>
@@ -161,25 +165,6 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 " splits 
 nmap <leader>v :vsplit<CR> <C-w><C-w>
 nmap <leader>s :split<CR> <C-w><C-w>
-
-" tabs
-map <C-t><C-n> :tabnew<CR>
-map <C-t><C-t> :tabnext<CR>
-map <C-r><C-r> :tabprevious<CR>
-map <C-t><C-c> :tabclose<CR>
-map <leader>1 :tabn 1<CR>
-map <leader>2 :tabn 2<CR>
-map <leader>3 :tabn 3<CR>
-map <leader>4 :tabn 4<CR>
-map <leader>5 :tabn 5<CR>
-map <leader>6 :tabn 6<CR>
-map <leader>7 :tabn 7<CR>
-map <leader>8 :tabn 8<CR>
-map <leader>9 :tabn 9<CR>
-
-"Neocompletecache - automcomplete
-let g:neocomplcache_enable_at_startup = 1
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>" 
 
 " Padrino
 map <leader>rc :Rcontroller<CR>
