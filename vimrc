@@ -171,3 +171,7 @@ map <leader>rc :Rcontroller<CR>
 map <leader>rr {)2w
 map <leader>rv {)2w:Rview <cword><CR>
 map <leader>rm :Rmodel<CR>
+
+" folding settings
+set foldmethod=syntax   "fold based on indent
+set nofoldenable        "dont fold by default
