@@ -129,3 +129,6 @@
 [submodule "bundle/simplefold"]
 	path = bundle/simplefold
 	url = https://github.com/vim-scripts/simplefold
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = git@github.com:flazz/vim-colorschemes.git
