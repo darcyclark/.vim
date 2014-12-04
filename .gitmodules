@@ -144,3 +144,6 @@
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
 	url = https://github.com/tpope/vim-projectionist
+[submodule "bundle/tern"]
+	path = bundle/tern
+	url = https://github.com/marijnh/tern_for_vim
