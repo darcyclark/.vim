@@ -83,7 +83,7 @@ set linebreak " linebreaks
 set nowrap " stop lines from wrapping
 set title " show title in the console title bar
 set ttyfast " smoother changes
-set bs=2 " backspace can delete previos characters
+set bs=2 " backspace can delete previous characters
 set backspace=indent,eol,start " more backspace settings
 set modeline " last lines in document sets vim mode
 set modelines=3 " number of lines checked for modelines
@@ -114,6 +114,7 @@ map <F10> :copen<CR>
 
 " ctrlp.vim
 silent! nmap <unique> <silent> <Leader>pp :CtrlP CWD<CR>
+" jump to file under cursor or in between parentheses
 silent! nmap <unique> <silent> <Leader>[[ :CtrlP<CR><C-\>f<CR>
 
 " NERD_tree config
@@ -173,9 +174,7 @@ map <leader>rr {)2w
 map <leader>rv {)2w:Rview <cword><CR>
 map <leader>rm :Rmodel<CR>
 
-" folding settings
-"set nofoldenable
-"set foldmethod=indent
-"set foldlevel=1
-"set foldmethod=marker
-set foldmarker=/*,*/
+" folding settings - set to hide large comment blocks in javascript at present
+set foldmethod=marker
+set foldmarker=\/**,*\/
+set foldtext='\ '
