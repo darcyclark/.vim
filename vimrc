@@ -114,6 +114,7 @@ map <F10> :copen<CR>
 
 " ctrlp.vim
 silent! nmap <unique> <silent> <Leader>pp :CtrlP CWD<CR>
+silent! nmap <unique> <silent> <Leader>[[ :CtrlP<CR><C-\>f<CR>
 
 " NERD_tree config
 map <F1> :NERDTreeToggle<CR>
@@ -173,6 +174,8 @@ map <leader>rv {)2w:Rview <cword><CR>
 map <leader>rm :Rmodel<CR>
 
 " folding settings
-set nofoldenable
-set foldmethod=indent
-set foldlevel=1
+"set nofoldenable
+"set foldmethod=indent
+"set foldlevel=1
+"set foldmethod=marker
+set foldmarker=/*,*/
