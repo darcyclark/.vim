@@ -4,6 +4,11 @@ let g:indent_guides_guide_size = 1
 " tasklist
 map <leader>y <Plug>TaskList
 
+" spell checking                                                                                                                 
+autocmd BufRead,BufNewFile *.md setlocal spell                                                                                   
+autocmd BufRead,BufNewFile *.txt setlocal spell                                                                                  
+autocmd BufRead,BufNewFile *.jade setlocal spell
+
 " enable autocomplete - Neocompletecache
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>" 
