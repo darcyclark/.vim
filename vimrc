@@ -1,6 +1,10 @@
 call pathogen#infect() 
 let mapleader = ","
 let g:indent_guides_guide_size = 1
+
+" vim-signify
+let g:signify_vcs_list = [ 'git', 'svn' ] 
+
 " tasklist
 map <leader>y <Plug>TaskList
 
