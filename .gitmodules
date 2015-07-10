@@ -50,10 +50,6 @@
 	path = bundle/tselectbuffer
 	url = https://github.com/tomtom/tselectbuffer_vim.git
   ignore = dirty
-[submodule "bundle/vim-cucumber"]
-	path = bundle/vim-cucumber
-	url = https://github.com/tpope/vim-cucumber.git
-  ignore = dirty
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -101,10 +97,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-  ignore = dirty
-[submodule "bundle/vim-padrino"]
-	path = bundle/vim-padrino
-	url = https://github.com/spllr/vim-padrino.git
   ignore = dirty
 [submodule "bundle/VimExplorer"]
 	path = bundle/VimExplorer
@@ -156,6 +148,3 @@
 [submodule "bundle/vim-javascript-syntax"]
 	path = bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax
-[submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
