@@ -2,6 +2,9 @@ call pathogen#infect()
 let mapleader = ","
 let g:indent_guides_guide_size = 1
 
+" tmux compatibility
+set t_ut=
+
 " vim-signify
 let g:signify_vcs_list = [ 'git', 'svn' ] 
 
