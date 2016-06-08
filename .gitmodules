@@ -151,3 +151,6 @@
 [submodule "bundle/vim-signify"]
 	path = bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify
+[submodule "vim-jdaddy"]
+	path = vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy
