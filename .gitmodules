@@ -153,3 +153,6 @@
 [submodule "vim-jdaddy"]
 	path = vim-jdaddy
 	url = https://github.com/tpope/vim-jdaddy
+[submodule "bundle/vim-jdaddy"]
+	path = bundle/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy
