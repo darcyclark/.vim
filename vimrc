@@ -1,6 +1,7 @@
 call pathogen#infect() 
 let mapleader = ","
 let g:indent_guides_guide_size = 1
+let g:ack_default_options = " -H --nocolor --nogroup --column"
 
 " tmux compatibility
 set t_ut=
